@@ -1,5 +1,4 @@
-import './style.css';
-import { bind, wire } from 'hyperhtml/esm';
+import { bind, wire } from 'https://unpkg.com/hyperhtml?module';
 
 const Table = {
   html: bind(document.getElementById('app')),
